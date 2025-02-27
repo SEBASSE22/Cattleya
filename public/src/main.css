@@ -1,0 +1,12 @@
+.pad-10px {
+  padding: 10px;
+}
+.pad-20px {
+  padding: 20px;
+}
+
+.d-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

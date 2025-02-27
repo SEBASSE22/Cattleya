@@ -1,0 +1,24 @@
+body,
+html {
+  overflow: none;
+}
+
+.main {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+
+  display: flex;
+
+  .sala-de-chat-seleccionada {
+    width: 80%;
+    background: rgba(139, 0, 0, 0.3);
+  }
+
+  .salas-de-chat {
+    width: 20%;
+    background: rgba(0, 139, 139, 0.3);
+  }
+}

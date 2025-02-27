@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Views</title>
+    <script
+      type="text/javascript"
+      src="https://jeff-aporta.github.io/ascii-maploader/static/js/index.all.min.js"
+    ></script>
+    <script>
+        asciiMap.CLI.react_mui_fa();
+        const tree = asciiMap.tree();
+        tree.newBranch("src", (src_folder)=>{
+          src_folder.jsx("00-mui-setup")
+        })
+        tree.jsxcss("index");
+        tree.writehtml();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
